@@ -1,0 +1,35 @@
+/* selector for id="container" */
+#container {
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+    border: 10px solid black;
+} 
+
+/*  selector for all "h1" elements
+    that are a descendent of id="container"
+    and have a class of "fancy-header" */
+#container h1.fancy-header {
+    color: green;
+    text-decoration: underline;
+    border: 20px solid black;
+}
+
+/* selector for all "em" elements */
+em {
+    font-weight: bold;
+}
+
+/* selector for all elements with class="article" */
+.article {
+    clear:both;
+    background-color: gray;
+    border-color: black; 
+    border: 30px solid green;
+}
+
+/*  selector for all "anchor" elements
+    that are a direct child of an element with class="article" */
+.article>a {
+    float:right;
+}

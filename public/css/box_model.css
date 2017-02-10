@@ -1,0 +1,40 @@
+/* (#) selector for id, (.) selector for class */
+
+.box {
+	width: 72px;
+	height: 72px;
+	border: 1px solid black;
+}
+
+#red {
+	background-color: red;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+#orange {
+	background-color: orange;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+#yellow {
+	background-color: yellow;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+#green {
+	background-color: green;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+#blue {
+	background-color: blue;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+#violet {
+	background-color: violet;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
